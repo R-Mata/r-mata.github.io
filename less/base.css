@@ -34,20 +34,22 @@ a {
 body,
 html {
   min-width: 375px;
+  height: 100%;
 }
 body {
   background-color: #af956a;
 }
 #header {
-  height: 50px;
+  height: 70px;
   background-color: #020202;
   color: #af956a;
   box-shadow: 3px 3px 5px #af956a;
   text-align: center;
-  line-height: 50px;
+  line-height: 70px;
   display: flex;
 }
 #header > h1 {
+  font-size: 50px;
   width: 20%;
 }
 #header #nav {

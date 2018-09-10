@@ -1,2 +1,46 @@
 @import 'base.less';
-
+#main {
+    height: 100%;
+    display: flex;
+    .left {
+        position: relative;
+        flex: 1;
+        background-color: @main-color;
+        height: 100%;
+        border-top: 2px solid #af956a;
+        color: #af956a;
+        text-align: center;
+        .user-img {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 50px;
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            overflow: hidden;
+            border: 4px solid #af956a;
+           img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .font{
+            padding: 200px 0;
+        }
+        h4{
+           
+            width: 100%;
+            top: 150px;
+        }
+        P{
+           
+            width: 100%;
+            top: 200px;
+            margin: 20px 0;
+        }
+    }
+    .right {
+        flex: 3;
+    }
+}
