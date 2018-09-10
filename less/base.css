@@ -31,7 +31,38 @@ a {
   display: block;
   clear: both;
 }
+body,
+html {
+  min-width: 375px;
+}
+body {
+  background-color: #af956a;
+}
 #header {
   height: 50px;
   background-color: #020202;
+  color: #af956a;
+  box-shadow: 3px 3px 5px #af956a;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+}
+#header > h1 {
+  width: 20%;
+}
+#header #nav {
+  flex: 1;
+  font-weight: bolder;
+}
+#header #nav ul {
+  width: 100%;
+  display: flex;
+  padding: 0 5px;
+}
+#header #nav ul li {
+  width: 25%;
+  display: block;
+}
+#header #nav ul li a {
+  color: #af956a;
 }

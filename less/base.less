@@ -1,4 +1,4 @@
-@main-color:#020202;
+@main-color: #020202;
 /* 样式初始化文件 */
 
 * {
@@ -31,6 +31,7 @@ a {
     color: #666;
     text-decoration: none;
 }
+
 /* 清除浮动的公共类 */
 
 .clearfix::after {
@@ -38,8 +39,42 @@ a {
     display: block;
     clear: both;
 }
+body,html{
+    min-width: 375px;
+}
+body {
+    background-color: #af956a;
+}
 
-#header{
+#header {
     height: 50px;
     background-color: @main-color;
+    color: #af956a;
+    box-shadow: 3px 3px 5px #af956a;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    >h1 {
+        
+        width: 20%;
+    }
+    #nav {
+        flex: 1;
+        font-weight: bolder;
+        ul {
+            width: 100%;
+            display: flex;
+            padding: 0 5px;
+            
+            li {
+                width: 25%;
+                display: block;
+                a {
+                   
+                    color:  #af956a;
+
+                }
+            }
+        }
+    }
 }
