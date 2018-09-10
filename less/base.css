@@ -33,7 +33,7 @@ a {
 }
 body,
 html {
-  min-width: 375px;
+  min-width: 992px;
   height: 100%;
 }
 body {
@@ -48,9 +48,12 @@ body {
   line-height: 70px;
   display: flex;
 }
-#header > h1 {
+#header .logo {
   font-size: 50px;
   width: 20%;
+}
+#header .logo img {
+  height: 100%;
 }
 #header #nav {
   flex: 1;

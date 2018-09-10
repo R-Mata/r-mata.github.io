@@ -1,13 +1,11 @@
 @import 'base.less';
 #main {
-    height: 100%;
     display: flex;
-    .left {
+    .main-left {
         position: relative;
         flex: 1;
         background-color: @main-color;
-        height: 100%;
-        border-top: 2px solid #af956a;
+        border-top: 4px solid #af956a;
         color: #af956a;
         text-align: center;
         .user-img {
@@ -20,27 +18,45 @@
             border-radius: 100%;
             overflow: hidden;
             border: 4px solid #af956a;
-           img {
+            img {
                 width: 100%;
                 height: 100%;
             }
         }
-        .font{
-            padding: 200px 0;
+        .font {
+            padding-top: 200px;
+            border-bottom: 4px solid #af956a;
         }
-        h4{
-           
+        h4 {
             width: 100%;
             top: 150px;
         }
-        P{
-           
+        P {
             width: 100%;
             top: 200px;
-            margin: 20px 0;
+            padding: 20px 0;
+        }
+        .job {
+            p {
+                font-size: 16px;
+                margin: 0px;
+                border-bottom: 1px dashed #af956a;
+            }
         }
     }
-    .right {
+    .center {
         flex: 3;
+        .slide {
+            padding: 3px 2px 0px 2px;
+            box-shadow: none;
+        }
+    }
+    .main-right {
+        position: relative;
+        flex: 1;
+        background-color: @main-color;
+        border-top: 4px solid #af956a;
+        color: #af956a;
+        text-align: center;
     }
 }
