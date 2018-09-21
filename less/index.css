@@ -31,25 +31,29 @@ a {
   display: block;
   clear: both;
 }
+html {
+  font-size: 100px;
+}
 body,
 html {
-  min-width: 992px;
+  min-width: 9.92rem;
   height: 100%;
 }
 body {
+  font-size: 16px;
   background-color: #af956a;
 }
 #header {
-  height: 70px;
+  height: 0.7rem;
   background-color: #020202;
   color: #af956a;
-  box-shadow: 3px 3px 5px #af956a;
+  box-shadow: 0.03rem 0.03rem 0.05rem #af956a;
   text-align: center;
-  line-height: 70px;
+  line-height: 0.7rem;
   display: flex;
 }
 #header .logo {
-  font-size: 50px;
+  font-size: 0.5rem;
   width: 20%;
 }
 #header .logo img {
@@ -62,7 +66,7 @@ body {
 #header #nav ul {
   width: 100%;
   display: flex;
-  padding: 0 5px;
+  padding: 0 0.05rem;
 }
 #header #nav ul li {
   width: 25%;
