@@ -1,31 +1,84 @@
 @import "base.less";
+//轮播
 #slider {
-
     width: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    img {
+    .carousel-inner {
         width: 100%;
+        img {
+            width: 100%;
+        }
     }
-    .uzi-title {
-        color: #522807;
-        font-size: 70px;
-        text-align: left;
-        font-weight: bold;
-        position: absolute;
-        top: 30%;
-        left: 15%;
+}
+
+//主体
+#main {
+    width: 100%;
+    .picture{
+        width: 100%;
+        .pictureTitle{
+            height: 50px;
+            background-color: #0f0f0f;
+            width: 80%;
+            color:  #c9a165;
+            font-weight: bolder;
+            font-size: 30px;
+            line-height: 50px;
+            margin: 0 auto;
+            margin-top: 5px;
+
+            border-radius: 10px;
+            
+
+        }
+        .row {
+            margin: 10px 5px;
+            .col-md-3 {
+                
+                padding: 0px;
+                img {
+                    margin: 5px 0;
+            
+                    height: 300px;
+                  width: 95%;
+                  border: 1px solid #c9a165;
+                }
+            }
+        }
     }
-    .uzi-text{
-     
-        position: absolute;
-        font-size: 16px;
-        line-height: 24px;
-        color:#522807;
-        text-align: left;
-        top: 55%;
-        left: 15%;
-        
+    .video{
+        width: 100%;
+        .videoTitle{
+            height: 50px;
+            background-color: #0f0f0f;
+            width: 80%;
+            color:  #c9a165;
+            font-weight: bolder;
+            font-size: 30px;
+            line-height: 50px;
+            margin: 0 auto;
+            margin-top: 5px;
+
+            border-radius: 10px;
+            
+
+        }
+        .row {
+            margin: 10px 5px;
+            .col-md-3 {
+                
+                padding: 0px;
+                img {
+                    margin: 5px 0;
+            
+                    height: 300px;
+                  width: 95%;
+                  border: 1px solid #c9a165;
+                }
+            }
+        }
     }
+
 }

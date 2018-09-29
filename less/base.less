@@ -44,7 +44,7 @@ body,
 html {
     padding: 0;
     margin: 0;
-    min-width: 992px;
+    min-width: 375px;
     height: 100%;
     width: 100%;
 }
@@ -54,13 +54,20 @@ body {
 }
 
 #header {
+    // position: fixed;
+    // opacity: 0.9;
+    margin: 0 auto;
     width: 100%;
     height: 100px;
     background-color: #fff;
+    z-index: 999;
     .row{
         margin: 0px;
+        padding: 0px;
+        
     }
     .logo {
+        padding: 0px;
         display: flex;
         height: 100px;
         img {
@@ -74,10 +81,25 @@ body {
         }
     }
     .col-md-2{
+        padding: 0px;
         font-size: 22px;
         line-height: 100px;
         a{
             color: #c9a165;
         }
+    }
+}
+
+
+#footer{
+    height: 50px;
+    width: 100%;
+    background-color:#c9a165;
+    div{
+        font-size: 30px;
+        color: #020202;
+        line-height: 50px;
+        font-weight: bolder;
+      
     }
 }

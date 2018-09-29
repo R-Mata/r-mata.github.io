@@ -35,7 +35,7 @@ body,
 html {
   padding: 0;
   margin: 0;
-  min-width: 992px;
+  min-width: 375px;
   height: 100%;
   width: 100%;
 }
@@ -43,11 +43,17 @@ body {
   background-color: white;
 }
 #header {
+  margin: 0 auto;
   width: 100%;
   height: 100px;
   background-color: #fff;
 }
+#header .row {
+  margin: 0px;
+  padding: 0px;
+}
 #header .logo {
+  padding: 0px;
   display: flex;
   height: 100px;
 }
@@ -60,6 +66,7 @@ body {
   color: #c9a165;
 }
 #header .col-md-2 {
+  padding: 0px;
   font-size: 22px;
   line-height: 100px;
 }
@@ -72,24 +79,66 @@ body {
   position: relative;
   overflow: hidden;
 }
-#slider img {
+#slider .carousel-inner {
   width: 100%;
 }
-#slider .uzi-title {
-  color: #522807;
-  font-size: 70px;
-  text-align: left;
-  font-weight: bold;
-  position: absolute;
-  top: 30%;
-  left: 15%;
+#slider .carousel-inner img {
+  width: 100%;
 }
-#slider .uzi-text {
-  position: absolute;
-  font-size: 16px;
-  line-height: 24px;
-  color: #522807;
-  text-align: left;
-  top: 55%;
-  left: 15%;
+#main {
+  width: 100%;
+}
+#main .picture {
+  width: 100%;
+}
+#main .picture .pictureTitle {
+  height: 50px;
+  background-color: #0f0f0f;
+  width: 80%;
+  color: #c9a165;
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 50px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+#main .picture .row {
+  margin: 10px 5px;
+}
+#main .picture .row .col-md-3 {
+  padding: 0px;
+}
+#main .picture .row .col-md-3 img {
+  margin: 5px 0;
+  height: 300px;
+  width: 95%;
+  border: 1px solid #c9a165;
+}
+#main .video {
+  width: 100%;
+}
+#main .video .videoTitle {
+  height: 50px;
+  background-color: #0f0f0f;
+  width: 80%;
+  color: #c9a165;
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 50px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+#main .video .row {
+  margin: 10px 5px;
+}
+#main .video .row .col-md-3 {
+  padding: 0px;
+}
+#main .video .row .col-md-3 img {
+  margin: 5px 0;
+  height: 300px;
+  width: 95%;
+  border: 1px solid #c9a165;
 }

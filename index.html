@@ -2,82 +2,116 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RNG-No.1</title>
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet/less" href="less/index.less">
-    <script src="lib/less/less.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RNG-No.1</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet/less" href="less/index.less">
+  <script src="lib/less/less.js"></script>
 </head>
 
 <body>
-    <!-- 头部区域 -->
-    <header id="header">
-        <div class="row text-center">
-            <div class="col-md-5 logo">
-                <img src="./images/d6e13d07434e5e832bf3af01c2dcbd29.jpg" alt="">
-                <span>范喵喵~</span>
-            </div>
-            <div class="col-md-2"><a href="#">软泥怪</a></div>
-            <div class="col-md-2"><a href="#">图片</a></div>
-            <div class="col-md-2"><a href="#">视频</a></div>
-            <!-- <div class="col-md-2">.col-md-4</div> -->
+  <!-- 头部区域 -->
+  <header id="header">
+    <div class="row text-center">
+      <div class="col-md-5 logo">
+        <img src="./images/d6e13d07434e5e832bf3af01c2dcbd29.jpg" alt="">
+        <span>范喵喵~</span>
+      </div>
+      <div class="col-md-2 hidden-sm hidden-xs"><a href="#">软泥怪</a></div>
+      <div class="col-md-2 hidden-sm hidden-xs"><a href="#">图片</a></div>
+      <div class="col-md-2 hidden-sm hidden-xs"><a href="#">视频</a></div>
+      <!-- <div class="col-md-2">.col-md-4</div> -->
+
+    </div>
+
+  </header>
+  <section id="slider">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="./images/uzi.png" alt="...">
 
         </div>
-
-    </header>
-    <section id="slider">
-        PreviousNext
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-          </ol>
-        
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="./images/uzi.png" alt="...">
-
-            </div>
-            <div class="item">
-              <img src="./images/faker.png" alt="...">
-            </div>
-     
-            <div class="item">
-              <img src="./images/an.png" alt="...">
-            </div>
-            <div class="item">
-              <img src="./images/pz.png" alt="...">
-            </div>
-     
-          </div>
-        
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
+        <div class="item">
+          <img src="./images/faker.png" alt="...">
         </div>
-    </section>
-    <!-- 主体区域 -->
-    <main id="main"></main>
 
-    <!-- 底部区域 -->
-    <footer id="footer"></footer>
+        <div class="item">
+          <img src="./images/an.png" alt="...">
+        </div>
+        <div class="item">
+          <img src="./images/pz.png" alt="...">
+        </div>
 
-    <script src="lib/jquery/jquery.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.js"></script>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+  </section>
+  <!-- 主体区域 -->
+  <main id="main">
+    <div class="picture">
+      <div class="pictureTitle text-center">图片</div>
+      <div class="row text-center">
+        <div class="col-md-3 "><img src="./images/msi1.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3"><img src="./images/msi2.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3"><img src="./images/msi3.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3"><img src="./images/msi4.jpg" alt="..." class="img-rounded"></div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi5.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi6.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi7.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi8.jpg" alt="..." class="img-rounded"></div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="videoTitle text-center">视频</div>
+      <div class="row text-center">
+        <div class="col-md-3 "><img src="./images/msi1.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3"><img src="./images/msi2.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3"><img src="./images/msi3.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3"><img src="./images/msi4.jpg" alt="..." class="img-rounded"></div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi5.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi6.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi7.jpg" alt="..." class="img-rounded"></div>
+        <div class="col-md-3 hidden-sm hidden-xs"><img src="./images/msi8.jpg" alt="..." class="img-rounded"></div>
+      </div>
+    </div>
 
-    <script src="js/index.js"></script>
+
+
+  </main>
+
+  <!-- 底部区域 -->
+  <footer id="footer" class="text-center">
+    <div>Royal Never Give Up</div>
+  </footer>
+
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+
+  <script src="js/index.js"></script>
 </body>
 
 </html>
